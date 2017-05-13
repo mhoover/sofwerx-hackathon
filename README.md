@@ -53,3 +53,10 @@
 - Members:
     - [Matt Hoover](matthew.a.hoover@gmail.com)
 - Project: Grey Pill
+
+
+START WITH WHY!!!
+Then the what and how
+Upload to YouTube by 5pm (public), then send link
+    - emphasize probabilistic nature
+    -

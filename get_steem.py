@@ -200,7 +200,7 @@ pic_df_agg['dom_pic_emotion'] = pic_df_agg.idxmax(axis=1)
 pic_df_agg = pic_df_agg.reset_index()
 user_df = user_df.merge(pic_df_agg[['user', 'dom_pic_emotion']], how='left',
                         left_on='name', right_on='user')
-user_df.dom_pic_emotion.fillna('Unknown', inplace=True)
+user_df.dom_pic_emotion.fillna('unknown', inplace=True)
 user_df.drop('user', axis=1, inplace=True)
 
 # run sentiment analysis on text
